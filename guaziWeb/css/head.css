@@ -1,0 +1,138 @@
+.header {
+  width: 1200px;
+  height: 64px;
+  /*position: absolute;*/
+  /*top: 0;
+  left: 50%;*/
+  /*z-index: 8;*/
+  /*margin-left: -600px;*/
+  /*margin-bottom: 60px;*/
+ margin: 0 auto;
+  background-color: transparent; }
+  .header h1 {
+    float: left;
+    font-weight: bold; }
+    .header h1 a {
+      display: block;
+      width: 64px;
+      height: 64px;
+      text-indent: -9999px;
+      background: url(../images/guazi1.png) no-repeat;
+      background-position: -181px -32px; }
+  .header .city {
+    float: left;
+    height: 34px;
+    padding: 0 15px;
+    margin: 17px 0 0 15px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 9999; }
+    .header .city .city-curr {
+      text-align: center;
+      line-height: 34px;
+      font-size: 14px;
+      color: #fff;
+      cursor: pointer; }
+      .header .city .city-curr i {
+        display: inline-block;
+        width: 11px;
+        height: 6px;
+        background: url(../images/guazi1.png) no-repeat;
+        background-position: -264px -35px;
+        vertical-align: middle;
+        margin: 0 0 0 5px;
+        font-style: normal; }
+  .header .contruy:hover .city {
+    background: #fff;
+    border: 1px solid #E6E6E6;
+    border-bottom: 1px solid #fff; }
+  .header .city-box {
+    display: none;
+    border: 1px solid #E6E6E6;
+    background: #fff;
+    position: absolute;
+    left: 431px;
+    top: 52px;
+    height: 370px;
+    padding-top: 30px;
+    overflow-y: scroll;
+    z-index: 10;
+    background: #fff; }
+    .header .city-box dl.bdb-n {
+      border: none; }
+    .header .city-box dl.bdb-s {
+      border-bottom: 1px solid #E6E6E6; }
+    .header .city-box dl {
+      padding: 5px 17px;
+      overflow: hidden;
+      border-bottom: 1px dashed #e6e6e6; }
+    .header .city-box dt.green-tit {
+      color: #22ac38; }
+    .header .city-box dt {
+      float: left;
+      width: 50px;
+      line-height: 46px;
+      font-size: 14px;
+      color: #a5abb2; }
+    .header .city-box dd {
+      float: left;
+      width: 680px;
+      line-height: 46px; }
+    .header .city-box dd a:hover {
+      color: #22AC38; }
+    .header .city-box a {
+      float: left;
+      color: #495056;
+      font-size: 14px;
+      margin-right: 25px;
+      white-space: nowrap; }
+  .header .contruy:hover .city-box {
+    display: block; }
+  .header .head-phone {
+    font-family: "arial, helvetica, sans-serif";
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    font-size: 24px;
+    line-height: 18px;
+    padding: 0 0 0 25px;
+    margin-top: 28px;
+    border-left: 1px solid #8c898c; }
+  .header .head-login {
+    float: right;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 24px;
+    background: url(../images/guazi1.png) no-repeat;
+    background-position: 6px -208px; }
+    .header .head-login a {
+      color: #fff; }
+  .header .head-login:hover {
+    background-position: 6px -236px; }
+  .header .head-login:hover a {
+    color: #22AC38; }
+  .header .nav-list {
+    float: right;
+    width: 700px;
+    height: 42px;
+    padding-top: 16px; }
+    .header .nav-list a {
+      float: right;
+      line-height: 40px;
+      padding-bottom: 5px;
+      margin: 0 20px;
+      font-size: 14px;
+      color: #fff; }
+    .header .nav-list a.active {
+      border-bottom: 3px solid #22AC38; }
+    .header .nav-list a:hover {
+      color: #22AC38; }
+    .header .nav-list a.active:hover {
+      color: #333; }
+
+/*head*/

@@ -1,0 +1,1545 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.head-banner {
+  width: 100%;
+  box-sizing: border-box;
+  background: #F0F0F0; }
+
+.header {
+  width: 1200px;
+  height: 64px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 8;
+  margin-left: -600px;
+  background-color: transparent; }
+  .header h1 {
+    float: left;
+    font-weight: bold; }
+    .header h1 a {
+      display: block;
+      width: 64px;
+      height: 64px;
+      text-indent: -9999px;
+      background: url(../images/guazi1.png) no-repeat;
+      background-position: -181px -32px; }
+  .header .city {
+    float: left;
+    height: 34px;
+    padding: 0 15px;
+    margin: 17px 0 0 15px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 9999; }
+    .header .city .city-curr {
+      text-align: center;
+      line-height: 34px;
+      font-size: 14px;
+      color: #495056;
+      cursor: pointer; }
+      .header .city .city-curr i {
+        display: inline-block;
+        width: 11px;
+        height: 6px;
+        background: url(../images/guazi1.png) no-repeat;
+        background-position: -264px -35px;
+        vertical-align: middle;
+        margin: 0 0 0 5px;
+        font-style: normal; }
+  .header .contruy:hover .city {
+    background: #fff;
+    border: 1px solid #E6E6E6;
+    border-bottom: 1px solid #fff; }
+  .header .city-box {
+    display: none;
+    border: 1px solid #E6E6E6;
+    background: #fff;
+    position: absolute;
+    left: 79px;
+    top: 52px;
+    height: 370px;
+    padding-top: 30px;
+    overflow-y: scroll;
+    z-index: 10;
+    background: #fff; }
+    .header .city-box dl.bdb-n {
+      border: none; }
+    .header .city-box dl.bdb-s {
+      border-bottom: 1px solid #E6E6E6; }
+    .header .city-box dl {
+      padding: 5px 17px;
+      overflow: hidden;
+      border-bottom: 1px dashed #e6e6e6; }
+    .header .city-box dt.green-tit {
+      color: #22ac38; }
+    .header .city-box dt {
+      float: left;
+      width: 50px;
+      line-height: 46px;
+      font-size: 14px;
+      color: #a5abb2; }
+    .header .city-box dd {
+      float: left;
+      width: 680px;
+      line-height: 46px; }
+    .header .city-box dd a:hover {
+      color: #22AC38; }
+    .header .city-box a {
+      float: left;
+      color: #495056;
+      font-size: 14px;
+      margin-right: 25px;
+      white-space: nowrap; }
+  .header .contruy:hover .city-box {
+    display: block; }
+  .header .head-phone {
+    font-family: "arial, helvetica, sans-serif";
+    color: #22AC38;
+    font-weight: 700;
+    float: right;
+    font-size: 24px;
+    line-height: 18px;
+    padding: 0 0 0 25px;
+    margin-top: 28px;
+    border-left: 1px solid #8c898c; }
+  .header .head-login {
+    float: right;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 24px;
+    background: url(../images/guazi1.png) no-repeat;
+    background-position: 6px -208px; }
+    .header .head-login a {
+      color: #495056; }
+  .header .head-login:hover {
+    background-position: 6px -236px; }
+  .header .head-login:hover a {
+    color: #22AC38; }
+  .header .nav-list {
+    float: right;
+    width: 700px;
+    height: 42px;
+    padding-top: 16px; }
+    .header .nav-list a {
+      float: right;
+      line-height: 40px;
+      padding-bottom: 5px;
+      margin: 0 20px;
+      font-size: 14px;
+      color: #333; }
+    .header .nav-list a.active {
+      border-bottom: 3px solid #22AC38; }
+    .header .nav-list a:hover {
+      color: #22AC38; }
+    .header .nav-list a.active:hover {
+      color: #333; }
+
+/*head*/
+.banner {
+  width: 100%;
+  height: 416px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
+  .banner ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 284px;
+    padding: 64px 0 68px;
+    background-repeat: no-repeat;
+    background-position: 50%; }
+    .banner ul li a {
+      display: block;
+      width: 100%;
+      height: 284px; }
+  .banner ul li:nth-child(1) {
+    background: url(../images/banner1.png); }
+  .banner ul li:nth-child(2) {
+    background: url(../images/banner2.png); }
+  .banner ul li:nth-child(3) {
+    background: url(../images/banner3.png); }
+  .banner .slide-ctrl {
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    display: none;
+    width: 40px;
+    height: 41px;
+    z-index: 8;
+    cursor: pointer;
+    background: url(../images/guazi1.png) no-repeat; }
+  .banner .slide-prev {
+    margin-left: -600px;
+    background-position: -403px 10px; }
+  .banner .slide-next {
+    margin-left: 544px;
+    background-position: -403px -95px; }
+  .banner .slide-prev:hover {
+    background-position: -403px -45px; }
+  .banner .slide-next:hover {
+    background-position: -403px -140px; }
+  .banner .slide-point {
+    position: absolute;
+    z-index: 10;
+    bottom: 88px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    height: 12px;
+    text-align: center; }
+    .banner .slide-point em {
+      display: inline-block;
+      width: 9px;
+      height: 10px;
+      margin: 0 5px;
+      line-height: 0;
+      font-size: 0;
+      cursor: pointer;
+      background: url(../images/guazi1.png) no-repeat -405px -230px; }
+    .banner .slide-point .active {
+      background-position: -405px -211px; }
+
+/*banner*/
+.w1200 {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+input, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 13.3333px Arial;
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  -webkit-writing-mode: horizontal-tb;
+  user-select: text;
+  cursor: auto;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  outline: none; }
+
+.buysell {
+  position: relative;
+  z-index: 3;
+  height: 256px;
+  margin-top: -64px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #dfe3e3;
+  border-top: 0;
+  box-shadow: 0 1px 4px 0 rgba(88, 100, 117, 0.2);
+  border-radius: 6px; }
+  .buysell .entry-buycar {
+    width: 728px; }
+    .buysell .entry-buycar .entry-title a:hover {
+      color: #22AC38; }
+    .buysell .entry-buycar .entry-title a:hover .icon-buysell {
+      background-position: -153px 0; }
+    .buysell .entry-buycar .entry-title .search {
+      width: 330px;
+      height: 47px;
+      margin-top: 0;
+      float: right;
+      padding-bottom: 5px; }
+      .buysell .entry-buycar .entry-title .search .search-box {
+        border: 1px solid #F5F5F7;
+        border-radius: 22px;
+        background: #f5f5f7;
+        width: 324px;
+        height: 45px;
+        padding-left: 1px; }
+        .buysell .entry-buycar .entry-title .search .search-box .search-input {
+          width: 255px;
+          height: 41px;
+          line-height: 32px;
+          padding-left: 25px;
+          padding-right: 0;
+          border-radius: 22px;
+          background: #f5f5f7;
+          float: left;
+          border: 0;
+          color: #495056;
+          font-size: 14px;
+          font-family: Microsoft Yahei, arial, "sans-serif"; }
+        .buysell .entry-buycar .entry-title .search .search-box .search-btn {
+          background: url(../images/guazi1.png) no-repeat 0 0;
+          height: 18px;
+          width: 18px;
+          padding: 0;
+          margin: 13px 25px 0 0;
+          float: right;
+          border: none;
+          cursor: pointer;
+          -webkit-appearance: none; }
+        .buysell .entry-buycar .entry-title .search .search-box .autocomplete-dropdown {
+          display: none;
+          position: absolute;
+          left: 0;
+          padding: 5px 0;
+          z-index: 9998;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          border: 1px solid #22AC38;
+          box-shadow: 2px 2px 3px #eee;
+          color: #000;
+          overflow: auto;
+          text-align: left;
+          border-radius: 5px; }
+          .buysell .entry-buycar .entry-title .search .search-box .autocomplete-dropdown ul li {
+            height: 28px;
+            line-height: 28px;
+            list-style: none outside none;
+            color: #495056;
+            padding: 0;
+            border: 0;
+            cursor: pointer;
+            font-size: 14px;
+            text-indent: 10px;
+            overflow: hidden;
+            float: none; }
+            .buysell .entry-buycar .entry-title .search .search-box .autocomplete-dropdown ul li .hot-tip {
+              position: absolute;
+              background: #F5F5F7;
+              left: 0px;
+              width: 325px; }
+          .buysell .entry-buycar .entry-title .search .search-box .autocomplete-dropdown ul li:hover {
+            background: #F5F5F7; }
+        .buysell .entry-buycar .entry-title .search .search-box .open {
+          display: block;
+          top: 48px;
+          left: -1px;
+          border: 1px solid #e8ebeb;
+          box-shadow: none; }
+      .buysell .entry-buycar .entry-title .search .search-box:hover {
+        border: 1px solid #A5ABB2; }
+      .buysell .entry-buycar .entry-title .search .autocomplete {
+        position: relative; }
+    .buysell .entry-buycar .buycar-brand {
+      padding-top: 24px;
+      padding-bottom: 5px;
+      padding-left: 23px; }
+      .buysell .entry-buycar .buycar-brand a {
+        float: left;
+        width: 100px;
+        height: 22px;
+        color: #495056;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 14px; }
+        .buysell .entry-buycar .buycar-brand a img {
+          width: 24px;
+          height: 24px;
+          vertical-align: top;
+          margin-top: -2px;
+          margin-right: 5px; }
+      .buysell .entry-buycar .buycar-brand a:hover {
+        color: #22AC38; }
+    .buysell .entry-buycar .buycar-price {
+      padding-top: 8px;
+      padding-left: 27px;
+      line-height: 0;
+      height: 40px; }
+      .buysell .entry-buycar .buycar-price a {
+        display: inline-block;
+        height: 44px;
+        font-size: 14px;
+        color: #495056;
+        line-height: 44px;
+        width: 100px;
+        float: left;
+        text-align: center; }
+      .buysell .entry-buycar .buycar-price a:hover {
+        color: #22AC38; }
+    .buysell .entry-buycar .buycar-price:after {
+      display: inline-block;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      content: "";
+      vertical-align: top; }
+  .buysell .fl {
+    float: left; }
+  .buysell .entry-title {
+    padding-top: 24px;
+    padding-left: 50px;
+    padding-right: 15px; }
+    .buysell .entry-title a {
+      font-size: 20px;
+      color: #495056;
+      line-height: 45px; }
+    .buysell .entry-title .icon-buysell {
+      display: inline-block;
+      vertical-align: middle;
+      width: 7px;
+      height: 13px;
+      margin: -4px 0 0 7px;
+      background: url(../images/guazi1.png) no-repeat;
+      background-position: -140px 0; }
+  .buysell .entry-sellcar {
+    width: 370px;
+    padding-right: 48px; }
+    .buysell .entry-sellcar .entry-title {
+      padding-left: 0;
+      padding-bottom: 20px;
+      height: 45px;
+      overflow: hidden; }
+      .buysell .entry-sellcar .entry-title .fl:hover {
+        color: #22AC38; }
+      .buysell .entry-sellcar .entry-title .fl:hover .icon-buysell {
+        background-position: -153px 0; }
+      .buysell .entry-sellcar .entry-title .sellcar-show {
+        position: relative;
+        font-size: 16px;
+        color: #a8abae;
+        text-align: right;
+        overflow: hidden;
+        height: 45px;
+        line-height: 45px; }
+        .buysell .entry-sellcar .entry-title .sellcar-show .amount span {
+          font-family: tahoma;
+          font-size: 24px;
+          color: #3cb46d;
+          padding: 0 5px; }
+    .buysell .entry-sellcar .sellcar-box .sellcar-phone {
+      position: relative;
+      width: 370px; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone .phone-input {
+        float: left;
+        width: 328px;
+        height: 18px;
+        line-height: 18px;
+        padding: 13px 10px 14px 30px;
+        font: 16px/18px Microsoft YaHei;
+        color: #495056;
+        border: 1px solid #f5f5f7;
+        border-radius: 5px;
+        background-color: #f5f5f7;
+        margin-bottom: 15px;
+        outline: none; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone .phone-error {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        line-height: 46px;
+        font-size: 16px;
+        color: #f76367; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone a {
+        display: block;
+        float: left;
+        width: 179px;
+        height: 64px;
+        text-align: center;
+        line-height: 64px;
+        font-family: Microsoft YaHei;
+        font-size: 16px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone .phone-btn-sell {
+        background: #3CB46D;
+        margin-right: 11px; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone .phone-btn-sell:hover {
+        background: #349B5E; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone .phone-btn-eval {
+        background: #8EC500; }
+      .buysell .entry-sellcar .sellcar-box .sellcar-phone .phone-btn-eval:hover {
+        background: #88BA00; }
+  .buysell .fr {
+    float: right; }
+  .buysell .clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
+
+/*buysell*/
+.main {
+  width: 100%;
+  margin-bottom: -30px;
+  background: #F5F5F7; }
+
+.w1200 {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.channel-title {
+  padding: 35px 0 22px;
+  height: 30px; }
+  .channel-title h3 {
+    float: left;
+    font: normal 20px/30px "microsoft yahei";
+    color: #495056; }
+  .channel-title span {
+    float: left;
+    margin-top: 9px;
+    margin-left: 24px;
+    font-size: 12px;
+    color: #A8ABAE; }
+
+.channel-list {
+  height: 346px; }
+  .channel-list li {
+    float: left;
+    width: 227px;
+    height: 346px;
+    background: #fff; }
+  .channel-list li:hover {
+    box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.05); }
+  .channel-list .list-right {
+    float: right; }
+    .channel-list .list-right img {
+      display: block;
+      width: 227px;
+      height: 346px; }
+  .channel-list .list-left {
+    float: left; }
+    .channel-list .list-left img {
+      display: block;
+      width: 227px;
+      height: 346px; }
+  .channel-list .list-left1 {
+    margin-left: 16px; }
+    .channel-list .list-left1 img {
+      width: 227px;
+      height: 94px;
+      margin-top: 85px; }
+    .channel-list .list-left1 .list-text1 {
+      padding-top: 35px;
+      text-align: center;
+      font-size: 16px; }
+      .channel-list .list-left1 .list-text1 p {
+        margin-bottom: 10px;
+        color: #495056; }
+      .channel-list .list-left1 .list-text1 span {
+        color: #f76367; }
+  .channel-list .list-top {
+    width: 470px;
+    height: 165px;
+    margin-left: 16px; }
+    .channel-list .list-top img {
+      float: left;
+      width: 263px;
+      height: 89px;
+      margin-top: 38px; }
+  .channel-list .list-bottom {
+    margin-top: 16px;
+    width: 470px;
+    height: 165px;
+    margin-left: 16px; }
+    .channel-list .list-bottom img {
+      float: left;
+      width: 263px;
+      height: 89px;
+      margin-top: 38px; }
+  .channel-list .list-text2 {
+    float: left;
+    padding-top: 54px;
+    font-size: 16px; }
+    .channel-list .list-text2 p {
+      margin-bottom: 10px;
+      color: #495056; }
+    .channel-list .list-text2 span {
+      color: #F76367; }
+
+.buysell-step {
+  position: relative;
+  margin-top: 60px;
+  font-size: 14px;
+  z-index: 1;
+  width: 100%; }
+
+.step-tab {
+  position: absolute;
+  top: 67px;
+  left: 50%;
+  z-index: 11;
+  width: 186px;
+  margin-left: -546px; }
+  .step-tab span {
+    display: inline-block;
+    float: left;
+    width: 66px;
+    font-size: 16px;
+    color: #495056;
+    padding-bottom: 6px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer; }
+  .step-tab em {
+    float: left;
+    font-style: normal;
+    padding: 0 20px;
+    color: #d2d2d2; }
+  .step-tab .active {
+    border-bottom: 3px solid #22AC38; }
+
+.slide-mask, .slide-area {
+  position: absolute;
+  width: 100%;
+  height: 400px; }
+
+.slide-mask {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: url(../images/mask.png) no-repeat top; }
+
+.slide-area {
+  overflow: hidden;
+  z-index: 9;
+  width: 100%; }
+  .slide-area .slide-list {
+    position: relative;
+    width: 100%;
+    height: 400px; }
+    .slide-area .slide-list li {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 400px;
+      opacity: 1;
+      background-position: top;
+      background-size: auto 100%; }
+    .slide-area .slide-list .active {
+      display: block; }
+
+.step-slide {
+  position: relative;
+  height: 400px; }
+  .step-slide .slide-items {
+    position: absolute;
+    top: 146px;
+    left: 50%;
+    z-index: 10;
+    width: 500px;
+    margin-left: -546px; }
+    .step-slide .slide-items li {
+      position: relative;
+      float: left;
+      padding-top: 116px; }
+      .step-slide .slide-items li .slide-title, .step-slide .slide-items li .slide-text {
+        position: absolute;
+        left: 0;
+        width: 500px;
+        overflow: hidden;
+        white-space: nowrap; }
+      .step-slide .slide-items li .slide-icon {
+        position: relative;
+        float: left;
+        width: 56px;
+        color: #8f969e;
+        margin-right: 60px;
+        cursor: pointer; }
+        .step-slide .slide-items li .slide-icon .icon-step {
+          display: block;
+          width: 32px;
+          height: 40px;
+          margin: 0 auto 6px;
+          background: url(../images/guazi1.png) no-repeat; }
+        .step-slide .slide-items li .slide-icon i.icon-step {
+          position: absolute;
+          right: -35px;
+          bottom: -3px;
+          width: 13px;
+          height: 10px;
+          background-position: -1px -102px; }
+
+.step-slide .slide-items .item-buy-see .slide-title, .step-slide .slide-items .item-buy-see .slide-text {
+  left: -116px; }
+
+.step-slide .slide-items .item-buy-contract .slide-title, .step-slide .slide-items .item-buy-contract .slide-text {
+  left: -232px; }
+
+.step-slide .slide-items .item-buy-deal .slide-title, .step-slide .slide-items .item-buy-deal .slide-text {
+  left: -348px; }
+
+.slide-title {
+  top: 0;
+  display: none;
+  font-size: 40px;
+  color: #495056;
+  left: -348px; }
+
+.slide-text {
+  top: 69px;
+  font-size: 18px;
+  color: #848c95;
+  display: none; }
+
+.slide-items .active {
+  display: block; }
+
+.slide-items .active .slide-title {
+  display: block; }
+
+.slide-items .active .slide-text {
+  display: block; }
+
+.buy-car-procedure .item-buy-order .slide-icon span.icon-step {
+  background-position: 2px -21px; }
+.buy-car-procedure .item-buy-see .slide-icon span.icon-step {
+  background-position: -41px -21px; }
+.buy-car-procedure .item-buy-contract .slide-icon span.icon-step {
+  background-position: -84px -21px; }
+.buy-car-procedure .item-buy-deal .slide-icon span.icon-step {
+  background-position: -119px -21px; }
+
+.sale-car-procedure {
+  display: none; }
+  .sale-car-procedure .item-sale-info .slide-icon span.icon-step {
+    background-position: -302px 4px; }
+  .sale-car-procedure .item-sale-service .slide-icon span.icon-step {
+    background-position: -302px -29px; }
+  .sale-car-procedure .item-sale-see .slide-icon span.icon-step {
+    background-position: -302px -64px; }
+  .sale-car-procedure .item-sale-deal .slide-icon span.icon-step {
+    background-position: -302px -102px; }
+
+.buy-car-procedure .slide-items .active .icon-buy-order {
+  color: #22AC38; }
+  .buy-car-procedure .slide-items .active .icon-buy-order span.icon-step {
+    background-position: 2px -57px; }
+
+.buy-car-procedure .slide-items .active .icon-buy-see {
+  color: #22AC38; }
+  .buy-car-procedure .slide-items .active .icon-buy-see span.icon-step {
+    background-position: -41px -57px; }
+
+.buy-car-procedure .slide-items .active .icon-buy-contract {
+  color: #22AC38; }
+  .buy-car-procedure .slide-items .active .icon-buy-contract span.icon-step {
+    background-position: -84px -57px; }
+
+.buy-car-procedure .slide-items .active .icon-buy-deal {
+  color: #22AC38; }
+  .buy-car-procedure .slide-items .active .icon-buy-deal span.icon-step {
+    background-position: -119px -57px; }
+
+.w1200 {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carlist-title {
+  padding-top: 35px;
+  text-align: center; }
+  .carlist-title li {
+    display: inline;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #495056;
+    cursor: pointer; }
+    .carlist-title li span {
+      display: inline-block;
+      padding-bottom: 10px;
+      border-bottom: 3px solid transparent; }
+    .carlist-title li span:hover {
+      color: #22AC38; }
+  .carlist-title .active span {
+    border-bottom: 3px solid #22AC38; }
+
+.carlist-box1 {
+  margin-left: -20px;
+  padding-top: 20px;
+  width: 1220px; }
+  .carlist-box1 li {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px; }
+    .carlist-box1 li a.car-a {
+      display: block;
+      width: 285px;
+      height: 314px;
+      padding: 0;
+      background: #fff;
+      position: relative; }
+      .carlist-box1 li a.car-a .t {
+        padding: 20px 20px 6px;
+        font-size: 17px;
+        color: #495056;
+        font-weight: 400;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      .carlist-box1 li a.car-a .t-i {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #A5ABB2;
+        font-size: 14px;
+        padding-bottom: 2px; }
+        .carlist-box1 li a.car-a .t-i .icon-pad {
+          display: inline-block;
+          font-size: 12px;
+          width: 14px;
+          text-align: center;
+          vertical-align: top;
+          line-height: 20px; }
+      .carlist-box1 li a.car-a .t-price {
+        padding: 0 20px;
+        height: 30px;
+        font-size: 20px;
+        color: #f95523;
+        overflow: hidden; }
+        .carlist-box1 li a.car-a .t-price p {
+          float: left;
+          line-height: 30px; }
+          .carlist-box1 li a.car-a .t-price p span {
+            font-size: 14px; }
+        .carlist-box1 li a.car-a .t-price .i-orange {
+          color: #ff9650;
+          background: #ffeeda; }
+        .carlist-box1 li a.car-a .t-price .i-red {
+          color: #f88368;
+          background: #ffeae5; }
+        .carlist-box1 li a.car-a .t-price .i-blue {
+          color: #d7a844;
+          background: #fcf2d5; }
+        .carlist-box1 li a.car-a .t-price i {
+          float: right;
+          width: 46px;
+          height: 21px;
+          line-height: 21px;
+          text-align: center;
+          font-size: 12px;
+          margin: 5px 0 0 5px;
+          font-style: normal; }
+      .carlist-box1 li a.car-a em {
+        float: left;
+        margin-top: 7px;
+        margin-left: 10px;
+        color: #A5ABB2;
+        font-size: 14px;
+        font-style: normal; }
+      .carlist-box1 li a.car-a .line-through {
+        text-decoration: line-through; }
+      .carlist-box1 li a.car-a .icon-sale {
+        background: url(../images/guazi1.png) no-repeat -100px -100px;
+        height: 40px;
+        line-height: 17px;
+        padding: 7px 0 10px;
+        position: absolute;
+        display: block;
+        width: 60px;
+        text-align: center;
+        color: #fff;
+        top: -10px;
+        left: 11px;
+        font-size: 12px; }
+  .carlist-box1 li:hover {
+    box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.05); }
+  .carlist-box1 img {
+    border: none;
+    display: block;
+    width: 285px;
+    height: 190px; }
+
+.carmore {
+  clear: both;
+  padding-top: 22px;
+  padding-bottom: 34px;
+  text-align: center; }
+  .carmore a {
+    font-size: 14px;
+    color: #495056; }
+  .carmore a:hover {
+    color: #22AC38; }
+  .carmore .iconbg {
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: 8px;
+    background: url(../images/guazi1.png) no-repeat -183px 0; }
+
+.foot-buysell {
+  height: 120px;
+  background: url(../images/foot-buysel.jpg) no-repeat top; }
+  .foot-buysell .w1200 {
+    width: 800px; }
+    .foot-buysell .w1200 .foot-buysell-tell {
+      width: 382px;
+      font-size: 14px;
+      color: #858d96;
+      text-align: center; }
+      .foot-buysell .w1200 .foot-buysell-tell .iconbg {
+        display: block;
+        width: 382px;
+        height: 30px;
+        margin-top: 33px;
+        margin-bottom: 9px;
+        background: url(../images/guazi1.png) no-repeat 0 -170px; }
+  .foot-buysell .fl {
+    float: left; }
+
+.foot-buysell-btn {
+  padding-top: 30px; }
+  .foot-buysell-btn .foot-buy, .foot-buysell-btn .foot-sell {
+    float: left;
+    width: 179px;
+    margin-left: 23px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px; }
+  .foot-buysell-btn .foot-buy {
+    background: #3CB46D; }
+  .foot-buysell-btn .foot-buy:hover {
+    background: #349B5E; }
+  .foot-buysell-btn .foot-sell {
+    background: #97cf00;
+    margin-left: 11px; }
+  .foot-buysell-btn .foot-sell:hover {
+    background: #88BA00; }
+
+.right-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  height: 100%; }
+
+a.toolbar {
+  width: 26px;
+  height: 74px;
+  background-color: #434857;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 45%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-align: center;
+  line-height: 14px;
+  padding-top: 10px;
+  display: none; }
+
+.fix-right {
+  width: 40px;
+  height: 100%;
+  background: #2a2c37; }
+
+.fix-icon {
+  position: absolute;
+  right: 0;
+  top: 32%;
+  z-index: 110;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: url(../images/right-nav.png) no-repeat; }
+
+.fix-icon-history {
+  margin-top: 187px;
+  background-position: 0 -120px; }
+  .fix-icon-history .history-bar {
+    display: none;
+    position: absolute;
+    top: -370px;
+    left: -661px;
+    width: 654px;
+    height: 500px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    cursor: default;
+    background: #fff; }
+    .fix-icon-history .history-bar i {
+      display: block;
+      position: absolute;
+      top: 378px;
+      right: -10px;
+      width: 10px;
+      height: 21px;
+      background: url(../images/right-nav.png) no-repeat 0 -350px; }
+    .fix-icon-history .history-bar .history-title {
+      font-size: 24px;
+      color: #495056;
+      line-height: 64px;
+      text-align: center;
+      font-weight: 400;
+      border-bottom: 1px solid #dcdcdc;
+      margin-left: 30px;
+      margin-right: 31px; }
+    .fix-icon-history .history-bar .history-scroll {
+      position: relative;
+      height: 380px;
+      margin-top: 21px;
+      padding-left: 25px;
+      overflow-y: auto; }
+    .fix-icon-history .history-bar .history-list .list-infoBox {
+      position: relative;
+      float: left;
+      width: 290px;
+      height: 290px;
+      margin-top: 5px;
+      background: #fff;
+      border: 2px solid #f5f5f5; }
+    .fix-icon-history .history-bar .history-list .list-infoBox {
+      margin-top: 0;
+      margin-bottom: 5px; }
+      .fix-icon-history .history-bar .history-list .list-infoBox .info-img img {
+        display: block;
+        width: 290px;
+        height: 194px; }
+      .fix-icon-history .history-bar .history-list .list-infoBox .icon-collect {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 5;
+        width: 30px;
+        height: 30px;
+        white-space: nowrap;
+        text-indent: -100px;
+        overflow: hidden;
+        background: url(../images/icon-collect.png) no-repeat 0 -80px;
+        cursor: pointer; }
+      .fix-icon-history .history-bar .history-list .list-infoBox .info-name {
+        display: block;
+        padding: 12px 10px 8px; }
+        .fix-icon-history .history-bar .history-list .list-infoBox .info-name h2 {
+          font-size: 16px;
+          font-weight: 400;
+          color: #000;
+          line-height: 1em;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }
+      .fix-icon-history .history-bar .history-list .list-infoBox .info-mile {
+        padding: 0 10px;
+        font-size: 12px;
+        color: #999; }
+        .fix-icon-history .history-bar .history-list .list-infoBox .info-mile em {
+          margin: 0 10px;
+          color: #ddd;
+          font-style: normal; }
+      .fix-icon-history .history-bar .history-list .list-infoBox .info-price {
+        padding: 0 10px; }
+        .fix-icon-history .history-bar .history-list .list-infoBox .info-price .price-curr {
+          margin-right: 5px;
+          font-size: 22px;
+          color: #ff7e00; }
+        .fix-icon-history .history-bar .history-list .list-infoBox .info-price .price-through {
+          font-size: 14px;
+          color: #999;
+          text-decoration: line-through; }
+      .fix-icon-history .history-bar .history-list .list-infoBox .info-off {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        width: 290px;
+        height: 194px; }
+        .fix-icon-history .history-bar .history-list .list-infoBox .info-off .info-off-sale {
+          position: absolute;
+          top: 59px;
+          left: 50%;
+          display: none;
+          width: 90px;
+          height: 76px;
+          margin-left: -45px;
+          white-space: nowrap;
+          text-indent: -200px;
+          overflow: hidden;
+          background: url(../images/icon-collect.png) no-repeat -90px 0; }
+
+.fix-icon-history:hover .history-bar {
+  display: block; }
+
+.history-btn {
+  padding-top: 35px;
+  text-align: center; }
+  .history-btn a {
+    display: inline-block;
+    width: 130px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #22ac38;
+    border-radius: 2px; }
+
+.fix-icon-app {
+  background-position: 0 -40px; }
+  .fix-icon-app .app-bar {
+    display: none;
+    position: absolute;
+    top: -80px;
+    left: -265px;
+    width: 260px;
+    height: 216px;
+    background: url(../images/app-img.55a4f1994ba79c6ac0b6bec356f62064.jpg) no-repeat; }
+    .fix-icon-app .app-bar p {
+      font-size: 16px;
+      color: #495056;
+      line-height: 24px;
+      text-align: center;
+      width: 125px;
+      padding-top: 145px; }
+
+.fix-icon-app:hover .app-bar {
+  display: block; }
+
+.fix-icon-wechat {
+  margin-top: 45px;
+  background-position: 0 -80px; }
+  .fix-icon-wechat .wx-bar {
+    display: none;
+    position: absolute;
+    top: -80px;
+    left: -145px;
+    width: 140px;
+    height: 70px;
+    font-size: 16px;
+    color: #495056;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 126px;
+    background: url(../images/wx-img.81ad3efd1d65c0c377c38c09134abf37.jpg) no-repeat; }
+
+.fix-icon-wechat:hover .wx-bar {
+  display: block; }
+
+.fix-icon-feedback {
+  margin-top: 90px;
+  background-position: 0 -160px; }
+  .fix-icon-feedback .feedback-bar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -130px;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    background: #22AC38;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center; }
+    .fix-icon-feedback .feedback-bar i {
+      position: absolute;
+      top: 15px;
+      right: -11px;
+      display: block;
+      width: 1px;
+      height: 1px;
+      border: 5px solid transparent;
+      border-left: 5px solid #22ac38; }
+
+.fix-icon-feedback:hover .feedback-bar {
+  display: block; }
+
+.fix-icon-phone {
+  margin-top: 135px;
+  background-position: 0 0; }
+  .fix-icon-phone .phone-bar {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -235px;
+    width: 226px;
+    height: 40px;
+    border-radius: 3px;
+    background: #22ac38;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center; }
+    .fix-icon-phone .phone-bar i {
+      position: absolute;
+      top: 15px;
+      right: -11px;
+      display: block;
+      width: 1px;
+      height: 1px;
+      border: 5px solid transparent;
+      border-left: 5px solid #22ac38; }
+
+.fix-icon-phone:hover .phone-bar {
+  display: block; }
+
+.fix-icon-backtop {
+  display: none;
+  margin-top: 232px;
+  background-position: 0 -200px; }
+
+.fix-icon-subscribe {
+  display: none;
+  margin-top: 232px;
+  background-position: 0 -240px; }
+
+.fix-icon-list {
+  display: none;
+  width: 57px;
+  height: 68px;
+  margin-top: -88px;
+  right: -6px;
+  background: none; }
+  .fix-icon-list .icon-money {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 57px;
+    height: 68px;
+    z-index: 105;
+    background: url(../guaziWeb/images/right-nav.png) no-repeat 0 -450px; }
+  .fix-icon-list .icon-sell-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 57px;
+    height: 68px;
+    z-index: 110;
+    background: url(../guaziWeb/images/right-nav.png) no-repeat 0 -380px; }
+
+.side-bar-line {
+  background-color: transparent;
+  margin-top: 180px;
+  height: 2px;
+  line-height: 0;
+  font-size: 0;
+  background-position: 0 -520px; }
+
+.fix-icon-online {
+  display: none;
+  width: 50px;
+  height: 50px;
+  margin-top: -73px;
+  background-position: 0 -590px;
+  background-color: transparent; }
+
+.pop-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2201;
+  margin: -275px 0 0 -400px;
+  width: 800px;
+  height: 550px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 3px solid #d8dde5;
+  display: none; }
+
+.pop-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: url(../images/icon-close.png) no-repeat 50%; }
+
+.feed-tit {
+  font: 24px/70px microsoft yahei;
+  color: #495056;
+  text-align: center; }
+
+.feed-content {
+  padding: 0 66px 0 48px;
+  font-family: microsoft yahei;
+  font-size: 16px; }
+
+.feed-tit2 {
+  padding-top: 17px;
+  font-size: 18px;
+  color: #757f89; }
+
+.feed-selectlist {
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 24px;
+  overflow: hidden; }
+  .feed-selectlist li {
+    float: left;
+    width: 136px;
+    margin-top: 10px;
+    color: #495056;
+    cursor: pointer; }
+  .feed-selectlist li.active .ficon-radio i {
+    background: #22AC38; }
+
+.ficon-radio {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  margin-right: 5px;
+  vertical-align: top;
+  border: 2px solid #d8dde5;
+  border-radius: 50%;
+  cursor: pointer; }
+  .ficon-radio i {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px 0 0 3px; }
+
+.feed-form {
+  margin-top: 27px;
+  clear: both; }
+
+.feed-textarea, .feed-textarea2 {
+  position: relative;
+  overflow: hidden; }
+
+.feed-textarea textarea {
+  float: left;
+  width: 658px;
+  height: 118px;
+  padding: 6px 10px;
+  font-size: 16px;
+  font-family: microsoft yahei;
+  border: 1px solid #bec6ce;
+  border-radius: 3px;
+  font: 12px/1.5 arial,helvetica,clean,sans-serif; }
+
+.text-limit {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color: #a5abb2; }
+  .text-limit i {
+    font-style: normal; }
+
+.feed-textarea2 {
+  margin-top: 13px; }
+  .feed-textarea2 textarea {
+    float: left;
+    width: 658px;
+    height: 40px;
+    line-height: 40px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: microsoft yahei;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font: 12px/1.5 arial,helvetica,clean,sans-serif; }
+
+.mask-feed {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2200;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); }
+
+.feed-error-tip {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #ff7e00; }
+
+.feed-btn {
+  display: block;
+  width: 410px;
+  height: 50px;
+  border-radius: 2px;
+  background: #22ac38;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center; }
+
+.feed-content2 {
+  display: none; }
+  .feed-content2 .feed-btn {
+    width: 130px;
+    margin-top: 166px; }
+
+.fb-suc-txt {
+  padding-top: 125px;
+  text-align: center;
+  font-size: 20px;
+  color: #666;
+  line-height: 32px; }
+
+.footer {
+  padding: 50px 0 30px;
+  background: #2A2C37; }
+
+.company-info {
+  width: 1190px;
+  height: 90px;
+  margin: 0 auto;
+  color: #b8b8b8;
+  padding-bottom: 70px; }
+
+.footer-logo {
+  width: 102px;
+  height: 90px;
+  float: left;
+  margin-left: 40px;
+  background: url(../images/global-bg.png) no-repeat -154px -100px; }
+
+.phone-email {
+  float: left;
+  width: 230px;
+  padding-left: 50px; }
+  .phone-email p {
+    line-height: 22px;
+    font-size: 14px; }
+    .phone-email p i {
+      font-style: normal; }
+    .phone-email p span {
+      display: inline-block;
+      font-size: 12px; }
+
+.info-link {
+  line-height: 22px;
+  font-size: 14px;
+  padding-bottom: 8px; }
+  .info-link a {
+    color: #B8B8B8;
+    margin-right: 37px; }
+
+.arc-info {
+  line-height: 20px;
+  font-family: simhei;
+  font-size: 12px; }
+
+.protect {
+  padding-top: 3px;
+  height: 28px;
+  line-height: 28px; }
+  .protect .police {
+    display: inline-block;
+    text-decoration: none;
+    color: #939393;
+    line-height: 28px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 12px; }
+  .protect .police:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    background: url(../images/icon-foot.8db09594385dc9fbd737a66b0ffc26e3.png) no-repeat 0 -62px; }
+  .protect .icon-xin {
+    float: left;
+    width: 115px;
+    height: 31px;
+    margin-right: 20px;
+    background: url(../images/icon-foot.8db09594385dc9fbd737a66b0ffc26e3.png) no-repeat; }
+  .protect .icon-315 {
+    float: left;
+    background-position: 0 -31px;
+    width: 95px;
+    height: 31px;
+    background: url(../images/icon-foot.8db09594385dc9fbd737a66b0ffc26e3.png) no-repeat 0 -31px; }
+
+.protect-icon-xin315 {
+  padding-top: 5px; }
+
+.gz-ewm {
+  display: block;
+  float: left;
+  width: 85px;
+  height: 85px;
+  margin-top: 4px; }
+
+.ewm-tit {
+  width: 82px;
+  line-height: 22px;
+  font-size: 14px;
+  float: left;
+  padding-left: 8px; }
+
+.basic-info {
+  float: left;
+  width: 390px;
+  padding-left: 20px;
+  background: transparent;
+  margin: 0; }
+
+.friendly-link {
+  width: 1100px;
+  padding: 0 0 0 90px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+  .friendly-link a {
+    color: #666;
+    font-size: 12px;
+    line-height: 28px;
+    margin-right: 20px;
+    display: inline-block; }
+
+.link-tit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 90px;
+  height: 28px;
+  font-size: 16px;
+  color: #666; }
+
+.open-box, .close-box {
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 16px;
+  height: 9px;
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer; }
+
+.close-box {
+  bottom: 10px;
+  background: url(../images/global-bg.png) no-repeat -70px -100px; }
